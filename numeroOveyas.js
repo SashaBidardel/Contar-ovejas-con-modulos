@@ -1,5 +1,11 @@
-
 import { contar } from "./contarOveyas.js";
+
+let btn=document.getElementById("boton");
+btn.addEventListener("click",numeroOvejas);
+
+btn.onclick = () => {
+    console.log('clicked');
+}
 
 
 function numeroOvejas() {
